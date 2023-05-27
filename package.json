@@ -1,0 +1,26 @@
+{
+  "name": "reactjs-scratchcard",
+  "version": "1.0.1",
+  "description": "simple scractchcard library",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "vimal kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@karibash/pixel-units": "^2.3.0",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/react": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^5.0.4"
+  }
+}
