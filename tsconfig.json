@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "target": "esnext",
+        "module": "ES6",
+        "moduleResolution": "nodenext",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "jsx": "preserve",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
