@@ -1,6 +1,6 @@
 {
   "name": "reactjs-scratchcard",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simple scractchcard library",
   "main": "src/index.ts",
   "repository": {
