@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "simple scractchcard library",
   "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimalkmr816/reactjs-scratchcard"
+  },
   "files": [
     "src/**/*"
   ],
