@@ -18,7 +18,7 @@ https://github.com/dopey2/react-scratchcard-v2
 
 ## Demo
 
-![Demo Gif](/src/assets/demo.gif)
+![Demo Gif](https://raw.githubusercontent.com/vimalkmr816/reactjs-scratchcard/main/.github/images/demo.gif)
 
 
 ## How to install
