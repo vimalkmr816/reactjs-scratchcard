@@ -1,9 +1,9 @@
-import { RelativeLengthUnitSuffix, Unit } from "@karibash/pixel-units/defs"
+import { RelativeLengthUnitSuffix, Unit } from "@karibash/pixel-units/defs";
 
-export type CSSLengthUnit = Unit<RelativeLengthUnitSuffix>  
+export type CSSLengthUnit = Unit<RelativeLengthUnitSuffix>
 
 export type CustomBrush = {
-	image: any
+	image: string
 	width: CSSLengthUnit
 	height: CSSLengthUnit
 }
@@ -17,7 +17,7 @@ export type CustomCheckZone = {
 
 export type ScratchCardProps = {
 	width: CSSLengthUnit
-	height:  CSSLengthUnit
+	height: CSSLengthUnit
 	image: string
 	finishPercent?: number
 	onComplete: () => void
