@@ -1,7 +1,6 @@
 import { convertUnits }                                               from "@karibash/pixel-units";
 import React, { MouseEvent, TouchEvent, useEffect, useRef, useState } from "react";
 import styled                                                         from "styled-components";
-import { src as IMG_SRC }                                             from "./assets/image";
 import type { CSSLengthUnit, Coordinate, ScratchCardProps }           from "./types";
 
 type StyledDivProps = {
@@ -39,7 +38,7 @@ type ResultType = {
 const ScratchCard = ( props: ScratchCardProps ) => {
 	const {
 		height,
-		image = IMG_SRC,
+		image,
 		width,
 		brushSize = 20,
 		children,
